@@ -1,10 +1,7 @@
 /* BASIC SETUP */
-
-* {
-    margin: 0;
-    padding: 0;
+*, *:before, *:after {
     box-sizing: border-box;
-}
+  }
 
 html {
     color: #555;
@@ -13,15 +10,35 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     letter-spacing: .8px;
+    height: 100%;
 }
 
 /* REUSABLE COMPONENTS */ 
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(images/space.jpg);
+    position: relative;
+    height: 100%;
+}
+
+.wrap {
+    height: 100%;  
+    position: relative;
+    overflow: hidden;
+}
+    
+.bg {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    background: url('images/space.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+
+    transform: scale(1.1);
 }
 
 /* NAV */
@@ -48,3 +65,10 @@ body {
     letter-spacing: 2px;
     font-family: 'Roboto Mono', 'Arial', 'sans-serif';
 }
+
+#shipcanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Makes sure this is underneath other HTML elements (on my site, it's behind a login form  */
+  }
