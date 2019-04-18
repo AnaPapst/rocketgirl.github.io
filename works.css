@@ -1,0 +1,105 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+body {  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* NAV */
+
+.rocket {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.navbar-nav li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 75%;
+}
+
+
+/* HEADER */
+
+.caixa {
+    margin-top: 5%;
+}
+
+.caixa h1 { 
+    text-align: center;
+    color: black;
+    font-size: 140%;
+    font-weight: 650;
+}
+
+.caixa h1 span {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+/* DESCRIPTION */
+
+.section-about-text {
+    padding: 4%;
+    text-align: justify;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 70%; 
+    letter-spacing: .8px;
+}
+
+
+/* CAROUSEL SIZE*/
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+.carousel-caption {
+    font-size: 15px;
+}
+
+/* ICONS LOGO*/
+
+.github-logo {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.logos {
+    padding-bottom: 2%;
+}
+
+.blacktext {
+    color: black;
+    font-weight: 900;
+}
+
+.carousel-item {
+    cursor: pointer;
+}

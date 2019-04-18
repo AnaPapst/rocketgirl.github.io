@@ -1,0 +1,50 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* NAV */
+
+.rocket {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.navbar-nav li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 75%;
+}
+
+
+/* BODY */
+
+.rocket-girl h1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;  
+    color: white;
+    font-size: 250%;
+    letter-spacing: 2px;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+}

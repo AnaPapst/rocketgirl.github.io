@@ -1,0 +1,87 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .8px;
+}
+
+/* REUSABLE COMPONENTS */ 
+
+body {  
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* NAV */
+
+.rocket {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.navbar-nav li a {
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    font-size: 75%;
+}
+
+/* HEADER */
+
+
+.caixa {
+    margin-top: 5%;
+}
+
+.caixa h1 { 
+    text-align: center;
+    color: black;
+    font-size: 140%;
+    font-weight: 650;
+}
+
+.caixa h1 span {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+/* DADOS */
+
+.row {
+    font-size: 60%;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', 'Arial', 'sans-serif';
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+ion-icon {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+a {
+    color: #EB9F9F;
+}
+
+a:hover { 
+    color: #EB9F9F;
+    background-color: #282828;
+}
+
+.logo-pink {
+    color: #EB9F9F;
+}
+
+
+
